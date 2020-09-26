@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
-        int i = 666;
+        int i = 777;
         System.out.println(Integer.toBinaryString(i));
-        int in = 1100001001;
+        int in = 1010011010;
         System.out.println(Integer.parseInt(String.valueOf(in), 2));
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число в бинарном формате: ");
