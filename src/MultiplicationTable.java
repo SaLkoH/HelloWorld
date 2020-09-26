@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input a number: ");
+        System.out.print("Введите любое число: ");
         int num = in.nextInt();
         System.out.println("Таблица умножения в двух вариантах");
         System.out.println(" 1*1=1  1*2=2   1*3=3   1*4=4   1*5=5   1*6=6   1*7=7   1*8=8   1*9=9   1*10=10");
