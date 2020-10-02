@@ -16,13 +16,11 @@ public class practice10 {
         }
         input.close();
 
-        for (int i = 0; i < size1; i++) {
-            for (int j = 0; j < size2; j++) {
-                System.out.print(array[i][j] + "\t");
+        for (int i = 0, j = 0; j < size2; j++) {
+                System.out.print(array[i][j]*2 + "\t");
 
 
             }
             System.out.println();
         }
     }
-}
