@@ -10,14 +10,14 @@ public class practice10 {
         int[][] array = new int[size1][size2];
         for (int i = 0; i < size1; i++) {
             for (int j = 0; j < size2; j++) {
-                System.out.print("Введите элемент матрицы [" + i + "][" + j + "]:");
+                System.out.print("Введите элемент матрицы [" + i + "][" + j + "]: ");
                 array[i][j] = input.nextInt();
             }
         }
         input.close();
 
-        for (int i = 0, j = 0; j < size2; j++) {
-                System.out.print(array[i][j]*2 + "\t");
+        for (int j = 0; j < size2; j++) {
+                System.out.print(array[0][j] * 2 + "\t");
 
 
             }
